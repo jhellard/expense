@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+// Containers
+
+.container-centered {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+// Colors
+
+$softRed: hsl(10, 79%, 65%);
+$cyan: hsl(186, 34%, 60%);
+$darkBrown: hsl(25, 47%, 15%);
+$mediumBrown: hsl(28, 10%, 53%);
+$cream: hsl(27, 66%, 92%);
+$veryPaleOrange: hsl(33, 100%, 98%);
+
+// Font
+
+body {
+  font-size: 18px;
+  font-family: 'DM Sans', sans-serif;
+}

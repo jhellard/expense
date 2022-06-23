@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# Frontend Mentor - Expenses chart component solution
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hello! 👋
 
-## Available Scripts
+Below is a solution to the [Expenses chart component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-In the project directory, you can run:
+## Table of contents
 
-### `npm start`
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Overview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### The challenge
 
-### `npm test`
+Users should be able to:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- View the bar chart and hover over the individual bars to see the correct amounts for each day ✔️
+- See the current day’s bar highlighted in a different colour to the other bars ✔️
+- View the optimal layout for the content depending on their device’s screen size ✔️
+- See hover states for all interactive elements on the page ✔️
+- **Bonus**: Use the JSON data file provided to dynamically size the bars on the chart ✔️
 
-### `npm run build`
+### Screenshot
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![](./src/Images/mobile.png)
+![](./src/Images/desktop.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Links
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-### `npm run eject`
+## My process
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+I started with the layout, getting everything in place with dummy data. Once it was responsive and looked right I implemented dynamic columns and totals using the provided json data. Using Styled Components and Sass for styling, it made it fairly simply to replicate.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Built with
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+---
+- [React](https://reactjs.org/) - JS library
+- [Sass](https://sass-lang.com/) - Main styling
+- [Styled Components](https://styled-components.com/) - Adaptive styling (Dynamic Column Height)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### What I learned
 
-## Learn More
+While I have used Styled Components before, this was a good refresher for changing CSS properties using dynamic variables. The bar will dynamically change size depending on the amount.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+It's always fun to try and achieve your goals as quickly as possible and I was very satisfied in the time it took me to put this together.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+### Continued development
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+I would like to add a way to dynamically change the amounts in-app and store them locally on the users machine, allowing them to actually track their spending. I'm sure it will be satisfying to watch the columns populate as the days are inputted.
 
-### Analyzing the Bundle Size
+### Useful resources
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- [W3 Schools](https://www.w3schools.com/) - For the 50 property names I couldn't remember, W3 Schools was always the first place I'd check.
+- [CSS-Tricks](https://css-tricks.com/) - Great website for more specific styling choices, lots of cool effects and interesting ways to achieve your desired effect.
 
-### Making a Progressive Web App
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Website - [Joshua Hellard](https://www.jhellard.com)
+- Frontend Mentor - [@jhellard](https://www.frontendmentor.io/profile/jhellard)
