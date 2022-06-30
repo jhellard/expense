@@ -26,7 +26,7 @@ const App = () => {
     <div className="container-centered" role="main">
       <div className="balance">
         <div>
-          <h2>My balance</h2>
+          <h1>My balance</h1>
           <p>$921.48</p>
         </div>
         <div>
