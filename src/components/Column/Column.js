@@ -1,5 +1,5 @@
 import React from "react";
-import SingleColumn from '../../CSS/Styled-Components/SingleColumn';
+import SingleColumn from "../../CSS/Styled-Components/SingleColumn";
 
 const Column = ({ column }) => {
   const computedColumnHeight = Math.round(column.amount * 3.5);

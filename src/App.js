@@ -13,49 +13,46 @@ const App = () => {
     let total = 0;
     Data.forEach((column) => {
       total += column.amount;
-    }
-    );
+    });
     setWeeklySpending(Math.round(total * 100) / 100);
-  }
+  };
 
   // Get the weekly spending amount on page load
   useEffect(() => {
     getWeeklySpending();
-  }
-  , []);
-
+  }, []);
 
   return (
-    <div className="container-centered">
+    <div className="container-centered" role="main">
       <div className="balance">
-        <span>
+        <div>
           <h2>My balance</h2>
           <p>$921.48</p>
-        </span>
-        <span>
+        </div>
+        <div>
           <img src={Logo} alt="logo" />
-        </span>
+        </div>
       </div>
       <div className="spending">
         <h2>Spending - Last 7 days</h2>
-        <span className="spending__chart">
+        <div className="spending__chart">
           {Data.map((column, index) => {
             return <Column key={index} column={column} />;
           })}
-        </span>
+        </div>
         <span className="spending__border"></span>
 
-        <span className="total">
-          <span>
+        <div className="total">
+          <div>
             <h2>Total this month</h2>
             <h3>${weeklySpending}</h3>
-          </span>
+          </div>
 
-          <span>
+          <div>
             <p>+2.4%</p>
             <p>from last month</p>
-          </span>
-        </span>
+          </div>
+        </div>
       </div>
     </div>
   );
